@@ -1,0 +1,150 @@
+header {
+	   background-color: lightcoral;
+	   padding: 1%;
+	   text-align: center;
+	   font-style: italic;
+	   font-size: 35px;
+	   color: black;
+	
+	  
+}
+
+section{
+	    background-color: none;
+	    text-align: left;
+	    font-style: italic;
+	    font-size: 20px;
+	      margin: 12px;
+     padding-top:14%;
+     position: fixed;
+     padding-bottom: 20%;
+     width: 18%;
+	   
+	    
+}
+footer{
+	text-align: center;
+	float: right;	
+	background-color: lightgrey;
+	padding: 1%;
+	width: 97%;
+	font-size: 15px;
+	margin: 1%;
+	
+}
+aside 
+{  		float: left;
+	padding: 0 20px 20px 0;		
+	height:250vh;
+	width: 20%;
+	background-color: aqua;
+	position: relative;
+
+}
+img{
+		
+	position:fixed;
+	height: 25%;
+	width: 16%;
+     margin: 12px;
+     padding-top:0.1%;
+
+
+
+}
+@media screen and (max-width: 600px){
+	div{
+		font-size: 10px;
+	}
+	header{
+		font-size: 15px;
+	}
+	img{
+		height: 15vw;
+	}
+	section{
+		font-size: 11px;
+		
+		padding-top: 20%;
+	}
+	footer{
+		font-size: 10px;
+	}
+aside{
+	height: 152vw;
+}
+
+}
+
+
+
+
+nav{
+	display:block;
+
+
+}
+
+div{
+	display: block;
+	float: right;
+	background-color: cornsilk;
+	margin: 3%;
+	padding: 2%;
+	width:60%;
+	font-family: arial;
+	
+
+}
+a{  
+	color: salmon;
+	margin:20px;
+}
+a:hover {
+	  color: purple;
+}
+
+#ds,#os,#csa,#bs,#c,#dm,#wd{
+	padding: 5%;
+	font-size: 20px;
+	opacity: 0.8;
+    background-color: lavenderblush;
+
+    
+}
+
+#wd{
+	padding: 5%;
+	font-size: 20px;
+	opacity: 0.9;
+    background-color: lavenderblush;
+    
+}
+#ds1{
+	background-image: url('ds.jpg');
+}
+#os1{
+	background-image: url('os.jpg');
+	background-size: cover;
+
+}
+#csa1{
+	background-image: url('csa.jpg');
+	background-size: cover;
+}
+#bs1{	background-image: url('bs.jpg');
+
+}
+#dm1{
+	background-image: url('math.jpg');
+	background-size: cover;
+}
+#c1{
+		background-image: url('c.jpg');
+		
+}
+#wd1{
+	background-image: url('wb.jpg');
+background-size: cover;
+}
+
